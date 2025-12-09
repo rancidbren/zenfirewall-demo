@@ -1,7 +1,0 @@
-git checkout -b feature/bad-function-demo
-# create or edit a file, e.g. bad_code.py
-# paste in the ❌ process_user_data() version
-git add bad_code.py
-git commit -m "Add intentionally complex function for Aikido demo"
-git push origin feature/bad-function-demo
-
