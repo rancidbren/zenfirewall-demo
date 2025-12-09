@@ -1,20 +1,7 @@
-def process_user_data(a, b, c, d, e, f, g):
-    result = 0
-    if a > 0:
-        if b > 1:
-            if c == 3:
-                for i in range(10):
-                    if d < i:
-                        result += 1
-                    else:
-                        result -= 1
-            else:
-                result += c
-        else:
-            result -= b
-    else:
-        if e and f:
-            result += g
-        else:
-            result = -1
-    return result
+git checkout -b feature/bad-function-demo
+# create or edit a file, e.g. bad_code.py
+# paste in the ❌ process_user_data() version
+git add bad_code.py
+git commit -m "Add intentionally complex function for Aikido demo"
+git push origin feature/bad-function-demo
+
